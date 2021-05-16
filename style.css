@@ -248,6 +248,11 @@ button {
     /* background: yellow; */
 }
 
+#next-button, #prev-button {
+    cursor: pointer;
+    display: inline-block;
+}
+
 /* caraousel*/
 
 /* Features */
@@ -752,5 +757,8 @@ p {
         display: flex;
         justify-content: flex-start;
         padding-left: 2rem;
+    }
+    .features {
+        height: auto;
     }
 }
